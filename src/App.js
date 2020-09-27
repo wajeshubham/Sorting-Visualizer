@@ -218,7 +218,7 @@ const App = () => {
                 color: "blue",
                 textDecoration: "underline",
               }}
-              href="#"
+              href="https://github.com/wajeshubham/Sorting-Visualizer"
             >
               click here for source code
             </a>
