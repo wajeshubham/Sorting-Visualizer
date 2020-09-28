@@ -212,6 +212,7 @@ const App = () => {
 
               <Option value="2">2x</Option>
             </Select>
+
             <a
               style={{
                 float: "right",
@@ -222,6 +223,17 @@ const App = () => {
             >
               click here for source code
             </a>
+            <p
+              className="mr-2 text-sm"
+              style={{
+                float: "right",
+                color: "grey",
+                fontSize: "14px",
+                fontStyle: "italic",
+              }}
+            >
+              (Only compatible with laptop/desktop)
+            </p>
           </div>
         </Col>
       </Row>
