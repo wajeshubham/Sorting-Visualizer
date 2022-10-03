@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "antd/dist/antd.css";
 import "./App.css";
-import { Button, Col, Container, Row } from "reactstrap";
+import { Button, Col, Row } from "reactstrap";
 import { Select } from "antd";
 
 import { wait } from "@testing-library/react";
@@ -24,9 +24,9 @@ const App = () => {
     let x = speed === "1" ? 30 : speed === "1.5" ? 20 : 10;
 
     let array = Array.from(lst);
-    let sorted = Array.from(lst).sort();
     let current;
     for (let i = 1; i < array.length; i++) {
+      // eslint-disable-next-line
       setTimeout(() => {
         current = array[i];
         let j = i - 1;
@@ -62,10 +62,10 @@ const App = () => {
     let x = speed === "1" ? 0.5 : speed === "1.5" ? 0.05 : 0.005;
     let temp;
     var list = Array.from(lst);
-    let sorted = Array.from(lst).sort;
     var s = 1;
     for (let i = list.length - 1; i >= 0; i--) {
       for (let j = 0; j < i; j++) {
+        // eslint-disable-next-line
         setTimeout(() => {
           if (list[j] > list[j + 1]) {
             temp = list[j];
@@ -101,6 +101,7 @@ const App = () => {
     let minPos;
     var list = Array.from(lst);
     for (let i = 0; i < list.length; i++) {
+      // eslint-disable-next-line
       setTimeout(() => {
         minPos = i;
 
