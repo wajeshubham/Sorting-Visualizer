@@ -136,7 +136,7 @@ const App = () => {
 
   const resetArray = () => {
     let newLst = [];
-    for (let i = 0; i < 370; i++) {
+    for (let i = 0; i < 150; i++) {
       newLst.push(Math.floor(Math.random() * 100 + 1));
 
       let arr = document.getElementById(`${i}`);
